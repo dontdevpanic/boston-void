@@ -3,12 +3,14 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Boston Void | No Compromise - No Surrender</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Boston Void | No Compromise - No Surrender</title>
+        <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+        <link rel="icon" href="assets/images/favicon.png" type="image/png">
 
-        <link rel="preload" href="/assets/fonts/fira-mono-regular.woff2" as="font" type="font/woff2" crossorigin>
-        <link rel="preload" href="/assets/fonts/special-elite-regular.woff2" as="font" type="font/woff2" crossorigin>
-        <link rel="preload" href="/assets/fonts/boston-traffic.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="assets/fonts/fira-mono-regular.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="assets/fonts/special-elite-regular.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="assets/fonts/boston-traffic.woff2" as="font" type="font/woff2" crossorigin>
 
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/variables.css">
@@ -25,17 +27,23 @@
         <!-- Navigation -->
         <header>
             <nav class="nav upper">
-                <div class="nav-inner">
-                    <a href="#" class="logo">Boston Void</a>
+                <nav class="nav upper">
+                    <div class="nav-inner">
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/favicon.svg" alt="Boston Void Logo" class="logo-icon">
+                            <span>Boston Void</span>
+                        </a>
 
-                    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"></button>
+                        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"></button>
 
-                    <ul class="nav-links">
-                        <li><a class="stamp-mini rotate-1 active" href="index.html">Home</a></li>
-                        <li><a class="stamp-mini rotate-1 nav-link" href="#contact">Github Repo</a></li>
-                    </ul>
-                </div>
-            </nav>
+                        <ul class="nav-links">
+                            <a class="stamp-mini rotate-1 nav-link active" href="index.html">Home</a>
+                            <li><a href="https://github.com/dontdevpanic/boston-void" target="_blank"
+                                    class="stamp-mini rotate-n1">GitHub
+                                    Repo</a></li>
+                        </ul>
+                    </div>
+                </nav>
         </header>
 
         <main>
@@ -134,17 +142,17 @@
         </footer>
         <div class="footer-legal bg-secondary">
             <ul class="flex justify-center align-center gap-md">
-                <li><a href="#" class="stamp-mini rotate-2">Imprint</a></li>
-                <li><a href="#" class="stamp-mini rotate-n1">Privacy</a></li>
-                <li><a href="#" class="stamp-mini rotate-1">Terms</a></li>
+                <!-- <li><a href="#" class="stamp-mini rotate-2">Imprint</a></li>
+                <li><a href="#" class="stamp-mini rotate-n1">Privacy</a></li> -->
                 <li><a href="https://github.com/dontdevpanic" target="_blank" class="stamp-mini rotate-n1">GitHub
                         Profile</a></li>
-                <li><a href="https://github.com/boston-void" target="_blank" class="stamp-mini rotate-n1">GitHub
-                        Project</a></li>
+                <li><a href="https://github.com/dontdevpanic/boston-void" target="_blank"
+                        class="stamp-mini rotate-1">GitHub
+                        Repo</a></li>
             </ul>
         </div>
         <button id="scrollTopBtn" title="Nach oben">⬆︎</button>
-        <script src="/assets/js/main.js" defer></script>
+        <script src="assets/js/main.js" defer></script>
     </body>
 
 </html>
