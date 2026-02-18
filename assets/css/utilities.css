@@ -1,0 +1,237 @@
+/* ======================================
+   BOSTON VOID - UTILITIES.CSS
+   ====================================== */
+
+/* ==== Colors ==== */
+.bg {
+    background: var(--bg);
+}
+
+.bg-secondary {
+    background: var(--bg-secondary);
+}
+
+.bg-paper {
+    background: rgba(220, 220, 200, 0.95);
+}
+
+.blood {
+    color: var(--blood);
+}
+
+.ink {
+    color: var(--ink);
+}
+
+/* .dark {
+    color: var(--dark);
+} */
+
+.muted {
+    color: rgba(89, 89, 89, 0.6);
+}
+
+
+/* BORDER */
+
+.dashed-border {
+    border-top: 2px dashed rgba(255, 255, 255, 0.1);
+}
+
+/* ==== TEXT ==== */
+
+.upper {
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+.center {
+    text-align: center;
+    display: block;
+}
+
+.left {
+    text-align: left;
+}
+
+/* ==== FLEX ==== */
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-start {
+    align-items: start;
+}
+
+.align-end {
+    align-items: end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-right {
+    justify-content: right;
+}
+
+.justify-left {
+    justify-content: left;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+/* ==== GRID ==== */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-bottom: 2rem;
+}
+
+.grid-split {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 4rem;
+}
+
+.split-left,
+.split-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* ==== IMAGES ==== */
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ==== GAP ==== */
+
+/* .gap-sm {
+    gap: 0.75rem;
+} */
+
+.gap-md {
+    gap: 1.5rem;
+}
+
+.gap-lg {
+    gap: 2.5rem;
+}
+
+.gap-xl {
+    gap: 3rem;
+}
+
+/* MARGIN */
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-3 {
+    margin-top: 3rem;
+}
+
+/* PADDING */
+
+.py-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.px-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.pt-2 {
+    padding-top: 2rem;
+}
+
+.pb-2 {
+    padding-bottom: 2rem;
+}
+
+.px-2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.py-2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* ==== LAYOUT ==== */
+/* .grid-3col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+} */
+
+
+/* ROTATE */
+
+.rotate-1 {
+    transform: rotate(1deg);
+}
+
+.rotate-2 {
+    transform: rotate(2deg);
+}
+
+.rotate-3 {
+    transform: rotate(3deg);
+}
+
+/* n = negative */
+.rotate-n1 {
+    transform: rotate(-1deg);
+}
+
+.rotate-n2 {
+    transform: rotate(-2deg);
+}
+
+.rotate-n3 {
+    transform: rotate(-3deg);
+}
+
+@media (max-width: 768px) {
+    .grid-split {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}

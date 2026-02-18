@@ -1,0 +1,164 @@
+/* ======================================
+   BOSTON VOID - COMPONENTS.CSS
+   ====================================== */
+
+.statement {
+    max-width: 600px;
+    font-size: 1rem;
+    padding: 1.5rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 2.5rem;
+}
+
+/* ==== BUTTONS BASE ==== */
+
+.btn,
+.stamp-button,
+.stamp-mini {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    letter-spacing: 0.15em;
+    line-height: 1;
+    text-decoration: none;
+    border: 2px solid var(--blood);
+    color: var(--paper);
+    background: transparent;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn:focus-visible,
+.stamp-button:focus-visible,
+.stamp-mini:focus-visible {
+    outline: 2px solid var(--blood);
+    outline-offset: 4px;
+}
+
+/* ==== BUTTON SIZES ==== */
+
+.stamp-button {
+    padding: 0.5rem 0.8rem 0.4rem;
+    letter-spacing: 0.1em;
+}
+
+.stamp-mini {
+    padding: 0.5rem 0.8rem 0.4rem;
+    font-size: 0.7rem;
+}
+
+/* ==== BUTTON VARIANTS ==== */
+
+.btn-primary {
+    opacity: 1;
+    background: var(--blood);
+    text-shadow:
+        1px 1px 0 rgba(0, 0, 0, 0.5),
+        2px 2px 1px rgba(0, 0, 0, 0.3),
+        -1px -1px 0 rgba(255, 255, 255, 0.3),
+        -1px -1px 1px rgba(255, 255, 255, 0.2);
+}
+
+.btn-secondary {
+    border-width: 3px;
+}
+
+/* ==== HOVER STATES ==== */
+
+.btn-primary:hover,
+.btn-secondary:hover,
+.stamp-button:hover,
+.stamp-mini:hover {
+    opacity: 1;
+    transform: rotate(0deg) scale(1.05);
+    background: var(--blood);
+    color: var(--paper);
+    text-shadow:
+        1px 1px 0 rgba(0, 0, 0, 0.5),
+        2px 2px 1px rgba(0, 0, 0, 0.3),
+        -1px -1px 0 rgba(255, 255, 255, 0.3),
+        -1px -1px 1px rgba(255, 255, 255, 0.2);
+}
+
+/* ==== CTA HERO BUTTONS ==== */
+
+.hero-cta .btn-primary,
+.hero-cta .btn-secondary {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+}
+
+/* ==== FORM BUTTONS ==== */
+
+button [type="submit"] .btn .btn-primary {
+    text-transform: uppercase;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+}
+
+/* ==== EMBOSSED TAPE ==== */
+
+.tag-embossed span {
+    background: var(--blood);
+    color: var(--paper);
+    font-size: 0.9rem;
+    padding: 0.8rem 1.5rem;
+    display: inline-block;
+    text-shadow:
+        1px 1px 0 rgba(0, 0, 0, 0.5),
+        2px 2px 1px rgba(0, 0, 0, 0.3),
+        -1px -1px 0 rgba(255, 255, 255, 0.3),
+        -1px -1px 1px rgba(255, 255, 255, 0.2);
+    box-shadow:
+        2px 2px 8px rgba(0, 0, 0, 0.3),
+        inset 0 2px 1px rgba(255, 255, 255, 0.2),
+        inset 0 -2px 1px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.1em;
+    font-weight: 500;
+}
+
+.hero-tag.tag-embossed span,
+.tag.tag-embossed span {
+    background-color: var(--ink);
+}
+
+@media (max-width: 768px) {
+
+    /* CTA Buttons: Verhindert volle Breite */
+    .hero-buttons .btn {
+        width: auto;
+        max-width: fit-content;
+    }
+
+    /* Alternative: Wenn sie doch volle Breite haben sollen */
+    /* .hero-buttons {
+        flex-direction: column;
+    }
+    .hero-buttons .btn {
+        width: 100%;
+    } */
+
+    /* Stamp-Buttons & Mini: Permanent "hover" Style auf Mobile */
+    .stamp-button,
+    .stamp-mini {
+        opacity: 1;
+        background: var(--blood);
+        color: var(--paper);
+        text-shadow:
+            1px 1px 0 rgba(0, 0, 0, 0.5),
+            2px 2px 1px rgba(0, 0, 0, 0.3),
+            -1px -1px 0 rgba(255, 255, 255, 0.3),
+            -1px -1px 1px rgba(255, 255, 255, 0.2);
+    }
+
+    /* Entfernt transform beim Tap auf Mobile (optional) */
+    .stamp-button:active,
+    .stamp-mini:active {
+        transform: scale(0.98);
+    }
+}

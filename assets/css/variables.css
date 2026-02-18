@@ -1,0 +1,32 @@
+/* ======================================
+   BOSTON VOID - VARIABLES.CSS
+   ====================================== */
+
+:root {
+    --paper: #eee6d2;
+    --ink: #111;
+    --blood: #d41111;
+    --warning: #ffd400;
+    --muted: #9b9b9b;
+
+    --bg: #0b0b0b;
+    --bg-muted: #272726;
+    --bg-secondary: rgba(4, 4, 4, 0.9);
+    --border-subtile: 1px solid #333;
+
+    --font-body: 'Fira Mono', ui-monospace, SFMono-Regular, Consolas, 'Menlo', monospace;
+    --heading: 'Boston', Arial, Helvetica, sans-serif;
+    --font-accent: 'Special Elite', 'Courier New', Courier, 'Georgia', 'Times New Roman', serif;
+}
+
+
+
+/* --blood: #b30000; */
+/* --success: #567d58; */
+
+/* background: rgba(220, 220, 200, 0.95); */
+
+/* --font-body: 'Menlo', ui-monospace, SFMono-Regular, Consolas, monospace; */
+/* --font-body: Helvetica, Arial, sans-serif; */
+/* --heading: 'Bebas Neue', Helvetica, Arial, sans-serif; */
+/* --font-mono: 'Menlo', ui-monospace, SFMono-Regular, Consolas, monospace; */
