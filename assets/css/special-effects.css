@@ -93,3 +93,21 @@
 .show.loose:hover {
     animation: sway 2.5s ease-in-out infinite;
 }
+
+@media (min-width: 769px) {
+    .show.loose .pin-r {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .show.loose {
+        animation: none;
+        transform: none;
+        rotate: 2deg;
+    }
+
+    .show.loose .pin-r {
+        display: block;
+    }
+}

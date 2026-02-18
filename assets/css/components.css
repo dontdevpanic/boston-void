@@ -129,21 +129,11 @@ button [type="submit"] .btn .btn-primary {
 
 @media (max-width: 768px) {
 
-    /* CTA Buttons: Verhindert volle Breite */
     .hero-buttons .btn {
         width: auto;
         max-width: fit-content;
     }
 
-    /* Alternative: Wenn sie doch volle Breite haben sollen */
-    /* .hero-buttons {
-        flex-direction: column;
-    }
-    .hero-buttons .btn {
-        width: 100%;
-    } */
-
-    /* Stamp-Buttons & Mini: Permanent "hover" Style auf Mobile */
     .stamp-button,
     .stamp-mini {
         opacity: 1;
@@ -156,7 +146,6 @@ button [type="submit"] .btn .btn-primary {
             -1px -1px 1px rgba(255, 255, 255, 0.2);
     }
 
-    /* Entfernt transform beim Tap auf Mobile (optional) */
     .stamp-button:active,
     .stamp-mini:active {
         transform: scale(0.98);

@@ -138,10 +138,6 @@
 
 /* ==== GAP ==== */
 
-/* .gap-sm {
-    gap: 0.75rem;
-} */
-
 .gap-md {
     gap: 1.5rem;
 }
@@ -196,11 +192,11 @@
 }
 
 /* ==== LAYOUT ==== */
+
 /* .grid-3col {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 } */
-
 
 /* ROTATE */
 

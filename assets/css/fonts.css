@@ -3,36 +3,18 @@
    ====================================== */
 
 @font-face {
-    font-family: 'Fira Mono';
-    src: url('fira-mono-regular.woff2') format('woff2'),
-        url('fira-mono-regular.woff') format('woff');
+    font-family: 'Boston';
+    src: url('../fonts/boston-traffic.woff2') format('woff2'),
+        url('../fonts/boston-traffic.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Fira Mono';
-    src: url('fira-mono-medium.woff2') format('woff2'),
-        url('fira-mono-medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Fira Mono';
-    src: url('fira-mono-bold.woff2') format('woff2'),
-        url('fira-mono-bold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'Special Elite';
-    src: url('/assets/fonts/special-elite-regular.woff2') format('woff2'),
-        url('/assets/fonts/special-elite-regular.woff') format('woff');
+    src: url('../fonts/special-elite-regular.woff2') format('woff2'),
+        url('../fonts/special-elite-regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -40,18 +22,36 @@
 
 @font-face {
     font-family: 'Menlo';
-    src: url('/assets/fonts/menlo-regular.woff2') format('woff2'),
-        url('/assets/fonts/menlo-regular.woff') format('woff');
+    src: url('../fonts/menlo-regular.woff2') format('woff2'),
+        url('../fonts/menlo-regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Boston';
-    src: url('/assets/fonts/boston-traffic.woff2') format('woff2'),
-        url('/assets/fonts/boston-traffic.woff') format('woff');
+    font-family: 'Fira Mono';
+    src: url('../fonts/fira-mono-regular.woff2') format('woff2'),
+        url('../fonts/fira-mono-regular.woff') format('woff');
     font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Mono';
+    src: url('../fonts/fira-mono-medium.woff2') format('woff2'),
+        url('../fonts/fira-mono-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Mono';
+    src: url('../fonts/fira-mono-bold.woff2') format('woff2'),
+        url('../fonts/fira-mono-bold.woff') format('woff');
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
