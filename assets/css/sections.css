@@ -111,7 +111,7 @@
 .hero-bg {
     position: absolute;
     inset: 0;
-    background: url("assets/images/hero-bg.jpg") center / cover no-repeat;
+    background: url("../images/hero-bg.jpg") center / cover no-repeat;
     filter: contrast(1.2) brightness(0.9);
     opacity: 0.3;
     pointer-events: none;
