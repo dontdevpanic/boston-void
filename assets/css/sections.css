@@ -162,13 +162,13 @@
 /* STAMP */
 .hero-stamp {
     position: absolute;
-    top: 10rem;
+    bottom: 8rem;
     right: 9rem;
 }
 
 .hero-stamp-2 {
     position: absolute;
-    top: 13rem;
+    bottom: 11rem;
     right: 6rem;
 }
 
@@ -619,7 +619,6 @@ ul.flex li {
     /* ==== SECTIONS ==== */
     .section {
         padding: 4rem 1rem;
-        scroll-margin-top: 50px;
     }
 
 

@@ -43,17 +43,17 @@ function setActive(id) {
 // Intersection Observer
 const observer = new IntersectionObserver((entries) => {
 
-    entries.forEach(entry => {
+    let visibleSections = entries
+        .filter(entry => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
 
-        if (entry.isIntersecting) {
-            setActive(entry.target.id);
-        }
-
-    });
+    if (visibleSections.length > 0) {
+        setActive(visibleSections[0].target.id);
+    }
 
 }, {
     root: null,
-    threshold: 0.6 // Section muss zu 60% sichtbar sein
+    threshold: [0.3, 0.6, 0.9]
 });
 
 // Observe all sections
