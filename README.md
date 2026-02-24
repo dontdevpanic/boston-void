@@ -3,11 +3,13 @@
 
 ![boston-void](screenshots/boston-void-hero.gif)
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-d41111)](https://dontdevpanic.github.io/boston-void/)
+
 ## Overview
 
 Boston Void is a fictional American hardcore band brought to life as a fully designed one-page website.
 
-This project is not just a layout exercise - it is a branding and atmosphere concept translated into code.
+This project is not just a layout exercise, it is a branding and atmosphere concept translated directly into code.
 
 The goal was to combine:
 
@@ -17,7 +19,8 @@ The goal was to combine:
 - Modern frontend structure  
 - Subtle interaction and motion  
 
-Built loud. No compromise.
+Built loud.  
+No compromise.
 
 ---
 
@@ -39,6 +42,7 @@ A separate experimental page explores enhanced CSS effects such as pinned flyer 
 
 ![boston-void](screenshots/shows-special-css-effects.gif)
 
+[![Special Effects Demo](https://img.shields.io/badge/Special_Effects-Demo-d41111)](https://dontdevpanic.github.io/boston-void/special-effects.html)
 ---
 
 ## Technical Highlights
@@ -50,6 +54,7 @@ A separate experimental page explores enhanced CSS effects such as pinned flyer 
 - `prefers-reduced-motion` support  
 - Scroll-aware navigation highlighting (IntersectionObserver)  
 - Clean semantic HTML  
+- Custom cursor integration (EMP metal hand)
 
 No frameworks.  
 No templates.  
@@ -100,6 +105,13 @@ It demonstrates attention to:
 - Structure  
 - Responsive behavior  
 - Design consistency  
+
+---
+
+## Assets & Credits
+
+- Metal Hand Cursor — provided by EMP (private use) https://www.emp.de/downloads.html/
+- All band imagery and album artwork were generated specifically for this fictional concept project.
 
 ---
 

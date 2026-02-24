@@ -543,7 +543,7 @@ ul.flex li {
 }
 
 .footer .logo {
-    display: block;
+    display: flex;
     margin-bottom: 1rem;
     font-size: 1.6rem;
     line-height: 1;
@@ -611,6 +611,38 @@ ul.flex li {
         gap: 1.5rem;
     }
 
+    /* ==== MUSIC ==== */
+    .music .split-left {
+        gap: 0.5rem;
+    }
+
+    .music .grid-split {
+        margin-bottom: 2rem;
+        gap: 2rem;
+    }
+
+    .music .subtitle {
+        margin-bottom: 0.5rem;
+    }
+
+    /* ==== CONTACT ==== */
+    .contact .grid-split {
+        margin-bottom: 2rem;
+        gap: 1.5rem;
+    }
+
+    .contact .split-left,
+    .split-right {
+        gap: 0;
+    }
+
+    .contact .subtitle {
+        margin-bottom: 1rem;
+    }
+
+    .contact-subtitle {
+        margin-bottom: 1rem;
+    }
 }
 
 
@@ -653,8 +685,14 @@ ul.flex li {
         text-align: center;
     }
 
-    /* ==== SHOWS ==== */
+    /* ==== MUSIC ==== */
+    .music .grid-split {
+        margin-bottom: 2rem;
+    }
 
+    .music .subtitle {
+        margin-bottom: 0.5rem;
+    }
 
     /* ==== ABOUT ==== */
 
@@ -681,8 +719,21 @@ ul.flex li {
 
     /* ==== CONTACT ==== */
 
+    .contact .split-left {
+        gap: 0.5rem;
+    }
+
+    .contact .subtitle {
+        margin-bottom: 0.5rem;
+    }
+
+    .contact-subtitle {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
     .form {
-        padding: 1.5rem;
+        margin-bottom: 1.5rem;
     }
 
     .social-cards {
